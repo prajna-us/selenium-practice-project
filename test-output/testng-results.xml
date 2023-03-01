@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-16T23:44:09Z" name="Default suite" finished-at="2023-02-16T23:44:09Z" duration-ms="44">
+    <groups>
+    </groups>
+    <test started-at="2023-02-16T23:44:09Z" name="Default test" finished-at="2023-02-16T23:44:09Z" duration-ms="44">
+      <class name="com.crm.qa.testcasses.LogInPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcasses.LogInPageTest@2767e23c]" started-at="2023-02-16T17:44:09Z" name="setUp" finished-at="2023-02-16T17:44:09Z" duration-ms="6" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:41)
+	at com.crm.qa.testcasses.LogInPageTest.setUp(LogInPageTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcasses.LogInPageTest@2767e23c]" started-at="2023-02-16T17:44:09Z" name="loginPageTitleTest" finished-at="2023-02-16T17:44:09Z" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:41)
+	at com.crm.qa.testcasses.LogInPageTest.setUp(LogInPageTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcasses.LogInPageTest@2767e23c]" started-at="2023-02-16T17:44:09Z" name="setUp" finished-at="2023-02-16T17:44:09Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subscribeImageBell()[pri:2, instance:com.crm.qa.testcasses.LogInPageTest@2767e23c]" started-at="2023-02-16T17:44:09Z" name="subscribeImageBell" finished-at="2023-02-16T17:44:09Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:41)
+	at com.crm.qa.testcasses.LogInPageTest.setUp(LogInPageTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeImageBell -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcasses.LogInPageTest@2767e23c]" started-at="2023-02-16T17:44:09Z" name="setUp" finished-at="2023-02-16T17:44:09Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcasses.LogInPageTest@2767e23c]" started-at="2023-02-16T17:44:09Z" name="loginTest" finished-at="2023-02-16T17:44:09Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.crm.qa.base.TestBase.prop" is null
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:41)
+	at com.crm.qa.testcasses.LogInPageTest.setUp(LogInPageTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.crm.qa.testcasses.LogInPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
